@@ -1,0 +1,8 @@
+.container {
+  position: relative;
+  padding: 19px;
+  border: 1px solid var(--border-color);
+  z-index: 0;
+  overflow: hidden;
+  background: #fff;
+}

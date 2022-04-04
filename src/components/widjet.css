@@ -1,0 +1,9 @@
+.widjet {
+border: transparent 1px solid;
+text-align: center;
+position: absolute;
+user-select: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}

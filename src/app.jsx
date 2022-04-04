@@ -9,12 +9,8 @@ const onClickEvent = (e) => {
 
 export const App = (props) => {
     return (
-        <div className='content'>
-          <Test test={props.test}/>
-            <div className='title'>
-                Create React App Without CRA😊
-            </div>
-            <button className='btn' onClick={onClickEvent}>Click Me 😎</button>
+        <div  style={{width:"500px",height:"350px",backgroundColor:'black'}}>
+            <h1>Hello world!</h1>
         </div>
     )
 }

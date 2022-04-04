@@ -11,16 +11,23 @@
     "build:dev": "NODE_ENV=development webpack --config webpack.config.js",
     "build:watch": "NODE_ENV=development node ./node_modules/webpack/bin/webpack.js --config webpack.config.js --watch"
   },
+  "browserslist":[
+    "last 2 Chrome versions",
+    "last 2 Firefox versions"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@babel/register": "^7.17.7",
+    "axios": "^0.26.1",
     "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "express": "^4.17.2",
     "ignore-styles": "^5.0.1",
     "nodemon": "^2.0.15",
+    "puppeteer": "^13.5.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
